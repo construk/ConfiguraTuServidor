@@ -30,7 +30,7 @@ Ir a la carpeta `/etc/systemd/system` y crear un fichero con el nombre del servi
 	Posteriormente ejecutamos `systemctl daemon-reload` para que cargue el fichero y ya podremos usar los comandos con `systemctl` para iniciar, parar, reiniciar y detener nuestro servicio.
 	 
 ## Seguridad
-### UFW (Uncomplicated Firewall) <pre>Más en:  [linode](https://www.linode.com/docs/security/firewalls/configure-firewall-with-ufw/)</pre>
+### UFW (Uncomplicated Firewall) <sup>Más en:  [linode](https://www.linode.com/docs/security/firewalls/configure-firewall-with-ufw/)</sup>
 **Activar/desactivar el firewall**
 ```sudo ufw enable```
 ```sudo ufw disable```
